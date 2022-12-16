@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../CSS/estilos.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 4 (2ª)</title>
+</head>
+<body>
+    
+
+<form>
+    <div class="legend2">
+    <legend>Datos de alumnos</legend>
+    </div>
+    <fieldset class = "fieldset3">
+        <br>
+        <p class = "opcion2">Teclea más datos</p>
+        <br>
+        <p class = "opcion4">Teclea fecha de nacimiento:</p>
+        <label class = "datos" for = "nombre">Teclea día de nacimiento..:</label>
+        <input type = "text" id = "nombre" name = "nombre"><br>
+        
+        <label class = "datos" for = "nombre">Seleccionar mes de nacimiento..:</label>
+        <select name="meses" id="meses">
+            <option value="Enero">Selecciona un mes...</option>
+            <option value="Enero">Enero</option>
+            <option value="Febrero">Febrero</option>
+            <option value="Marzo">Marzo</option>
+            <option value="Abril">Abril</option>
+            <option value="Mayo">Mayo</option>
+            <option value="Junio">Junio</option>
+            <option value="Julio">Julio</option>
+            <option value="Agosto">Agosto</option>
+            <option value="Septiembre">Septiembre</option>
+            <option value="Octubre">Octubre</option>
+            <option value="Noviembre">Noviembre</option>
+            <option value="Diciembre">Diciembre</option>
+          </select><br>
+
+        <label class = "datos" for = "nombre">Teclea año de nacimiento..:</label>
+        <input type = "text" id = "nombre" name = "nombre"><br>
+
+        <p class = "opcion4">Curso:</p>
+        <label class = "datos" for = "nombre">Seleccionar curso..:</label>
+
+        <select name="meses" id="meses">
+            <option value="Selecciona Curso">Selecciona un curso...</option><br>
+            <option value="Enero">1DAM</option>
+            <option value="Febrero">2DAM</option>
+            <option value="Marzo">1ASIX</option>
+            <option value="Abril">2ASIX</option>
+            <option value="Mayo">1DAW</option>
+            <option value="Junio">2DAW</option>
+          </select><br>
+
+        <br>
+        <hr>
+        <br>
+        <p class = "opcion4">Selecciona 3 materias:</p>
+
+        <div class="checkbox1">
+            <input type = "checkbox" name = "aficion" value = "Ir al cine">
+            <label for = "aficion">Máquinas Virtuales</label>
+
+            <input type = "checkbox" name = "aficion" value = "Rap">
+            <label for = "aficion">Diseño Gráfico</label>
+
+            <input type = "checkbox" name = "aficion" value = "Reggaetón">
+            <label for = "aficion">Diseño WEB</label>
+
+            <input type = "checkbox" name = "aficion" value = "Pop">
+            <label for = "aficion">Troubleshooting</label>
+
+            <input type = "checkbox" name = "aficion" value = "Trap">
+            <label for = "aficion">Hardware</label>
+
+        </div>
+
+        <br>
+
+        <hr>
+        <br>
+
+        <p class = "opcion4">Selecciona el turno:</p>
+
+        <div class="radioboxes">
+            
+        <input type = "radio" name = "musica" value = "Trap">
+            <label for = "musica">Diurno</label>
+
+            <input type = "radio" name = "musica" value = "Rap">
+            <label for = "musica">Nocturno</label>
+
+            <input type = "radio" name = "musica" value = "Reggaetón">
+            <label for = "musica">Vespertino</label>
+
+        </div>
+        <br>
+        <hr>
+
+        <div class="form2">
+        <button class = "boton5" type = "button" onclick="alert('Datos Enviados!!')">Enviar datos</button>
+        <button class = "boton6" type = "reset">Limpiar datos</button>
+        <button class = "boton7" type= "button" onclick="window.open('', '_self', '').close();">Cerrar ventana</button>
+        <button class = "boton8" type= "button" onclick = "window.location.replace('Form4.html')">Anterior formulario</button>
+        </div>
+        <hr>
+        <button class = "botonalter2" type = "button" onclick = "window.location.replace('Formularios.html')">Volver</a></button>
+    </fieldset>
+</form>
+</body>
+</html>

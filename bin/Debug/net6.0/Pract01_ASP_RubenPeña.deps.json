@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Pract01_ASP_RubenPeña/1.0.0": {
+        "runtime": {
+          "Pract01_ASP_RubenPeña.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Pract01_ASP_RubenPeña/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*PÁGINA PRINCIPAL*/
+
+.form{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 162, 255);;
+    border: rgb(1, 54, 134) 5px dashed;
+    width: 450px;
+    height: 400px;
+}
+
+.form2{
+    display: flex;
+    background-color: rgb(0, 162, 255);
+}
+
+body{
+    background-image: url(../IMAGENES/fondito4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.boton1{
+    margin-top: 55px;
+    margin-left: 35px;
+    height: 75%;
+    margin-right: 15px;
+    border: rgb(77, 136, 224) 3px groove;
+    background-color: rgb(199, 208, 214);
+}
+
+.boton2{
+    margin-top: 55px;
+    height: 75%;
+    margin-right: 15px;
+    border: rgb(77, 136, 224) 3px groove;
+    background-color: rgb(199, 208, 214);
+}
+
+.boton3{
+    margin-top: 55px;
+    height: 75%;
+    margin-right: 15px;
+    border: rgb(77, 136, 224) 3px groove;
+    background-color: rgb(199, 208, 214);
+}
+
+.boton4{
+    margin-top: 55px;
+    height: 75%;
+    border: rgb(77, 136, 224) 3px groove;
+    background-color: rgb(199, 208, 214);
+}
+
+/*FORMULARIO 1*/
+
+.prueba{
+    font-size: 30px;
+}
+
+.fieldset{
+    border: rgb(1, 54, 134) 5px solid;
+    width: 375px;
+    background-color: rgb(0, 162, 255);
+    opacity: 0.8;
+}
+
+.fieldset2{
+    border: rgb(1, 54, 134) 5px double;
+    width: 475px;
+    background-color: rgb(0, 162, 255);
+    opacity: 0.8;
+}
+
+.legend{
+    border: rgb(1, 54, 134) 5px solid;
+    background-color: rgb(0, 162, 255);
+    width: 375px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.legend2{
+    width: 375px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    opacity: 0.8;
+    margin-left: 200px;
+}
+
+.boton{
+    margin-left: 140px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.botonalter{
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.botonalter2{
+    margin-left: 325px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.boton5{
+    margin-left: 160px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.boton6{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.boton7{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right:10px;
+}
+
+.boton8{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+/*FORMULARIO 2*/
+
+.opcion1{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+/*FORMULARIO 4*/
+
+.opcion2{
+    color: rgb(4, 0, 235);
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+}
+
+.opcion4{
+    color: rgb(4, 0, 235);
+    font-weight: bold;
+    margin-left: 64.5px;
+}
+
+.datos{
+    margin-left: 65px;
+}
+
+.opcion3{
+    margin-left: 275px;
+}
+
+hr{
+    width: 710px;
+    margin-left: 15px;
+    height: 5px;
+    border-color: rgb(4, 0, 235);
+}
+
+.checkbox1{
+    margin-left: 64.8px;
+}
+
+.fieldset3{
+    border: rgb(1, 54, 134) 5px double;
+    width: 750px;
+    background-color: rgb(0, 162, 255);
+    opacity: 0.8;
+}
+
+.radioboxes{
+    margin-left: 63px;  
+}

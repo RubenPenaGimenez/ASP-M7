@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../CSS/estilos.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 4</title>
+</head>
+<body>
+    
+
+<form>
+    <div class="legend2">
+    <legend>Datos de alumnos</legend>
+    </div>
+    <fieldset class = "fieldset2">
+        <br>
+        <p class = "opcion2">Teclea datos de entrada:</p>
+        <br>
+        <label class = "datos" for = "nombre">Teclea datos alumno..:</label>
+        <input type = "text" id = "nombre" name = "nombre"><br>
+
+        <label class = "datos" for = "dirección">Teclea datos matrícula..:</label>
+        <input type = "text" id = "dirección" name = "dirección"><br>
+
+        <label  class = "datos" for = "telefono">Teclea dirección.........:</label>
+        <input type = "text" id = "telefono" name = "telefono"><br>
+        <label  class = "datos" for = "edad">Teclea población.........:</label>
+        <input type = "text" id = "edad" name = "edad"><br>
+
+        <label  class = "datos" for = "poblacion">Teclea telefóno..........:</label>
+        <input type = "text" id = "poblacion" name = "poblacion"><br>
+
+        <br>
+        <p class = "opcion2">Selecciona el sexo:</p>
+        <input class = "opcion3" type = "radio" name = "musica" value = "Masculino">
+        <label  for = "musica">Masculino</label>
+
+        <input type = "radio" name = "musica" value = "Femenino">
+        <label for = "musica">Femenino</label><br>
+        
+        <br>
+        <hr>
+
+        <div class="form2">
+        <button class = "boton5" type = "button" onclick="alert('Datos Enviados!!')">Enviar datos</button>
+        <button class = "boton6" type = "reset">Limpiar datos</button>
+        <button class = "boton7" type= "button" onclick="window.open('', '_self', ''); window.close();">Cerrar ventana</button>
+        <button class = "boton8" type= "button" onclick = "window.location.replace('Form5.html')">Siguiente formulario</button>
+        </div>
+        
+        <hr>
+
+        <button class = "botonalter2" type = "button" onclick = "window.location.replace('Formularios.html')">Volver</a></button>
+    </fieldset>
+</form>
+</body>
+</html>
